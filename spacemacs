@@ -537,7 +537,11 @@ configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
   (setq magit-repository-directories
-        '(("~/Software/" . 2) )))
+        '(("~/Software/" . 2) ))
+  (global-set-key (kbd "M-+") (lambda () (interactive) (insert "]")))
+  (global-set-key (kbd "M-ç") (lambda () (interactive) (insert "}")))
+  (global-set-key (kbd "M-º") (lambda () (interactive) (insert "\\")))
+  (global-set-key (kbd "M-¡") (lambda () (interactive) (insert "#"))))
 
 
 ;; Do not write anything past this comment. This is where Emacs will
