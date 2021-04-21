@@ -89,6 +89,7 @@
 (global-set-key (kbd "M-+") (lambda () (interactive) (insert "]")))
 (global-set-key (kbd "M-ç") (lambda () (interactive) (insert "}")))
 (global-set-key (kbd "M-º") (lambda () (interactive) (insert "\\")))
-(global-set-key (kbd "M-¡") (lambda () (interactive) (insert "#")))
+(global-set-key (kbd "M-3") (lambda () (interactive) (insert "#")))
+(global-set-key (kbd "M-2") (lambda () (interactive) (insert "@")))
 
 (setq ring-bell-function 'ignore)
